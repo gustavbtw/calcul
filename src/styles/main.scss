@@ -67,3 +67,21 @@ img {
   height: auto;
   pointer-events: none;
 }
+:root {
+  --color-primary: #006cbb;
+  --color-success: #01bd78;
+  --color-error: #d40019;
+  --color-white: #fff;
+  --color-gray: #ccc;
+  --color-black: #000;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
